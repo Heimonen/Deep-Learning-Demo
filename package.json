@@ -1,0 +1,25 @@
+{
+  "name": "deep-learning-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "webpack -p --config webpack.config.js --progress",
+    "lint": "eslint public/javascripts/js routes/js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5",
+    "lodash": "^4.17.4",
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "webpack": "^3.8.1"
+  }
+}
